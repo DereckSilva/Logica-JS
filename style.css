@@ -1,0 +1,37 @@
+:root{
+    font-size: 62.5%;
+}
+
+.conteudoPrincipal{
+  display: flex;
+  justify-content: center;
+  margin-top: 50vh;
+  gap: 1.2rem;
+}
+
+.conteudoPrincipal button{
+    border-radius: 0.8rem;
+    outline: none;
+    border: none;
+    background-color: blue;
+    color: #ffffff;
+    padding: 0.8rem;
+}
+
+.conteudoPrincipal input{
+    text-align: center;
+}
+
+.novoConteudo{
+    font-size: 1.6rem;
+    text-align: center;
+    color:blue;
+}
+
+.naoPalindromo{
+    color: red;
+}
+
+.possivelPalindromo{
+    color: purple;
+}
